@@ -113,12 +113,68 @@ main {
 
 .container {
     width: 200px;
-    height: 500px;
+    height: 295px;
 }
 
 .container h4 {
     font-size: 1.4rem;
 }
+
+
+/* TEAM */
+
+hr {
+    width: 60%;
+    margin: 2rem auto -1rem;
+
+}
+
+.team {
+    text-align: center;
+}
+
+.team h2 {
+    padding: 3rem 0 0 0;
+    font-size: 1.7rem;
+}
+
+.team h1 {
+    font-size: 5rem;
+}
+
+.team-box {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -18rem;
+}
+
+.team-box img {
+    height: 25rem;
+    width: auto;
+}
+
+#rosa {
+    position: relative;
+    top: 2rem;
+    left: -9.8rem;
+    z-index: 5;
+}
+
+#marcos {
+    position: relative;
+    top: 8rem;
+    left: 6.3rem;
+    z-index: 5;
+}
+
+.white {
+    color: white;
+}
+
+
+
+
 
 
 
