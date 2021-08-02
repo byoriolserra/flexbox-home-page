@@ -187,13 +187,25 @@ hr {
     letter-spacing: 0.1rem;
     border-radius: 0.7rem;
     color: white;
+    margin-bottom: -5rem;
 }
 
 
-
-
-
+/* FOOTER */
 
 footer {
     width: 100%;
+    background-color: #2E2532;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-left: 1rem;
 }
