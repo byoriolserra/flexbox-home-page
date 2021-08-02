@@ -16,5 +16,45 @@ body {
 /* HEADER */
 
 header {
+    width: 100%;
+    position: fixed;
+    background-color: #09814a;
+    top: 0;
+    color: white;
+}
+
+.header-container {
+    padding: 1.3rem;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    letter-spacing: 0.2rem;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+main {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
 }
