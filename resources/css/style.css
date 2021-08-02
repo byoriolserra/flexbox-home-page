@@ -22,7 +22,7 @@ header {
     background-color: #09814a;
     top: 0;
     color: white;
-    z-index: 5;
+    z-index: 10;
 }
 
 .header-container {
@@ -173,7 +173,21 @@ hr {
 }
 
 
+/* CONTACT */
 
+.contact {
+    text-align: center;
+    position: relative;
+    top: -10rem;
+    font-size: 1.4rem;
+    background-color: #af9bb69d;
+    width: 45%;
+    margin: auto;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+    border-radius: 0.7rem;
+    color: white;
+}
 
 
 
