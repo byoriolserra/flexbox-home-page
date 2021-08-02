@@ -21,6 +21,7 @@ header {
     background-color: #09814a;
     top: 0;
     color: white;
+    z-index: 5;
 }
 
 .header-container {
@@ -43,17 +44,49 @@ a {
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
+/* MAIN */
 
 main {
     width: 100%;
 }
+
+/* MISSION */
+
+.mission {
+    margin-top: 7.5%;
+    height: 30rem;
+    width: 100%;
+    background-image: url(../images/roxanne-boudrot-5PujaUzindM-unsplash.jpg);
+    background-size: cover;
+    background-position: 50% 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-text {
+    background-color: #af9bb6e7;
+    padding: 3rem 5rem;
+    text-align: center;
+    color: white;
+    border-radius: 0.7rem;
+}
+
+.mission-text h1 {
+    font-size: 300%;
+}
+
+.mission-text h3 {
+    font-size: 150%;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
 
 footer {
     width: 100%;
